@@ -46,6 +46,7 @@ class _WeatherPageState extends State<WeatherPage> {
             backgroundColor: Colors.blue,
             body: Center(
               child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   // CIDADE
                   Text(_weather?.cityName ?? ""),
